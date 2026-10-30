@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration (SDK path, machine-specific settings)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and secrets: never commit
+*.jks
+*.keystore
+keystore.properties
+*.p12
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json

@@ -1,0 +1,6 @@
+# Store text files with LF line endings so scripts work on Linux CI runners.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.png binary
+*.webp binary
